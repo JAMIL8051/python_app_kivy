@@ -60,7 +60,7 @@ class SayHello(App):
     def callback(self, instance):
         # change label text to "Hello + user name!"
         if self.user.text:
-            self.greeting.text = "Hello " + self.user.text + "! and wishing you happy holidays!!"
+            self.greeting.text = "Hello" + self.user.text + "! and wishing you happy holidays!!"
         else:
             self.greeting.text = "Please enter a valid username or anything!!!!"
             
